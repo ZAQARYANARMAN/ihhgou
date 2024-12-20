@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1540px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./asects/image/card.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-lives-block {
+    background-color: rgba(117, 102, 84, 0.592);
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    gap: 20px;
+}
+
+.container-lives-block-picture {
+    width: 30px;
+    height: 40px;
+}
+
+.close-card-block {
+    width: 7%;
+    height: 20%;
+    background-color: rgb(117, 102, 84);
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.block{
+    width: 16%;
+    height: 300px;
+    background-color: rgb(117, 102, 84);
+    border-radius: 10px;
+    border: 3px solid rgb(117, 102, 84);
+}
+
+.block-picture {
+    width: 100%;
+    height: 100%;
+}
+
+.container-buttons-block {
+    background-color: rgb(117, 102, 84);
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+.container-buttons-block-btn {
+    font-size: 16px;
+    padding: 6px 20px;
+    border: none;
+    background-color: bisque;
+}
+
+.container-buttons-block-btn:hover {
+    background-color: rgb(255, 216, 169);
+}
